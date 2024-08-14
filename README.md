@@ -26,8 +26,9 @@
   - Haz clic en "Registrarse".
   - Recibirás un correo para confirmar tu cuenta.
 
-**Imagen sugerida:** .
 ![Pantalla de Inicio de Sesión y Registro](markdown/1.jpg)
+
+![Pantalla de Inicio de Sesión y Registro](markdown/2.jpg)
 
 ### Consumo del Endpoint de Autenticación
 
@@ -38,8 +39,6 @@
 
 - Después de iniciar sesión, tu información se almacenará en el sistema para que puedas acceder a ella desde cualquier sección de la aplicación.
 
-**Imagen sugerida:** Flujo de autenticación.
-
 ## 2. Pantalla de Bienvenida
 
 ### Diseño de la Pantalla de Bienvenida
@@ -48,7 +47,7 @@
 - Aquí verás las opciones principales basadas en tu rol (estudiante, docente, pasante o administrador).
 - Navega por el menú para acceder a las funcionalidades disponibles.
 
-**Imagen sugerida:** Pantalla de Bienvenida con opciones de menú.
+![Pantalla de Inicio de Sesión y Registro](markdown/3.jpg)
 
 ## 3. Módulo de Usuarios: Estudiantes y Docentes
 
@@ -74,7 +73,7 @@
 - **Ver Detalles de Queja:**
   - En "Mis Quejas", selecciona una queja para ver todos los detalles.
 
-**Imagen sugerida:** Pantalla de detalle de una queja.
+![Pantalla de detalle de una queja](markdown/5.jpg)
 
 ## 4. Módulo de Pasante
 
@@ -95,7 +94,9 @@
 - **Actualizar Perfil:**
   - Actualiza tu perfil en "Mi Perfil".
 
-**Imagen sugerida:** Pantalla de gestión de tareas y perfil de pasante.
+**Imagen sugerida:** .
+
+![Pantalla de gestión de tareas y perfil de pasante](markdown/7.jpg)
 
 ## 5. Módulo de Administrador
 
@@ -112,8 +113,6 @@
   - En "Pasantes", puedes crear un nuevo pasante o actualizar la información de uno existente.
 - **Revisión y Actualización de Quejas:**
   - Los detalles de las quejas están disponibles para revisión y actualización.
-
-**Imagen sugerida:** Pantalla de gestión de tareas y pasantes.
 
 ## Conclusión
 
