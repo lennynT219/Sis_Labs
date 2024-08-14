@@ -1,0 +1,13 @@
+.all-content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: calc(100% - 70px);
+  gap: 20px;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.sidebar:hover~.all-content {
+  width: calc(100% - 220px);
+}

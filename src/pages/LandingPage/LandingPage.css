@@ -1,0 +1,75 @@
+.landing-page {
+  height: 100vh;
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+
+.landing-page section {
+  height: 100vh;
+}
+
+.landing-page section:nth-child(1) {
+  position: relative;
+  overflow: hidden;
+}
+
+.landing-page section:nth-child(1) img:not(.row) {
+  position: absolute;
+  top: 20px;
+  width: auto;
+  height: 100px;
+  filter: grayscale(.5);
+}
+
+.landing-page section:nth-child(1) img:nth-child(1) {
+  left: 10px;
+}
+
+.landing-page section:nth-child(1) img:nth-child(2) {
+  right: 10px;
+}
+
+.landing-page section:nth-child(1) .row {
+  position: absolute;
+  bottom: 20px;
+  left: 47%;
+  filter: drop-shadow(0px 0px 10px #fff);
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  -webkit-animation: slide-top-back 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+  animation: slide-top-back 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) infinite both;
+}
+
+.landing-page section:nth-child(1) button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
+  background: var(--blue);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 1.5rem;
+  font-weight: 600;
+  transform: translateX(-50%);
+  box-shadow: 0px 0px 89px -12px #094293,
+    0px 0px 100px 10px #0057D1;
+}
+
+.landing-page section:nth-child(1) h3 {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #fff;
+  font-size: 1rem;
+  filter: drop-shadow(0px 0px 10px #fff);
+}
+
+.landing-page section:nth-child(2) {
+  display: flex;
+  background: var(--grey);
+}

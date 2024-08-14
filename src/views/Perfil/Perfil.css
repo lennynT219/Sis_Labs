@@ -1,0 +1,33 @@
+.all-content .info-personal {
+  display: flex;
+  gap: 2rem;
+}
+
+.info-personal form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 100%;
+}
+
+.info-personal form label {
+  font-size: 1rem;
+  display: flex;
+  background-color: white;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.info-personal form input {
+  margin-left: 15px;
+  width: 100%;
+  border: none;
+  background-color: white;
+}
+
+.info-personal form select {
+  margin-left: 15px;
+  width: 100%;
+  border: none;
+  background-color: white;
+}

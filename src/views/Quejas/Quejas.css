@@ -1,0 +1,5 @@
+.all-content h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: var(--dark-blue);
+}

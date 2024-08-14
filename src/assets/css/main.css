@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --light: #fff;
+  --blue: #094293;
+  --light-blue: #e1ebff;
+  --grey: #eeeeee;
+  --dark-grey: #7a7a7a;
+  --dark-blue: #17242a;
+  --green: #03835d;
+  --light-green: #eafff9;
+  --dark: #342e37;
+  --red: #e4052e;
+  --light-red: #feedf1;
+  --yellow: #ffce26;
+  --light-yellow: #fff2c6;
+  --orange: #cc9a04;
+  --light-orange: #ffe0d3;
+}

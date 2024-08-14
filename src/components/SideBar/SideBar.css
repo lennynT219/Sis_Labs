@@ -1,0 +1,158 @@
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  background: var(--blue);
+  height: 100vh;
+  width: 70px;
+  transition: width 0.2s ease;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.356);
+}
+
+.sidebar:hover {
+  width: 220px;
+}
+
+.sidebar div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: white;
+  border-radius: 0 0 10px 10px;
+  gap: 5px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+.sidebar:hover div:nth-child(1) {
+  gap: 10px;
+}
+
+.sidebar img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px 0 0 0;
+  transition: width 0.2s ease, height 0.2s ease;
+}
+
+.sidebar:hover img {
+  width: 130px;
+  height: 130px;
+}
+
+.botones {
+  display: flex;
+  gap: 5px;
+}
+
+.sidebar:hover .botones {
+  display: flex;
+  gap: 15px;
+}
+
+.botones svg {
+  border-radius: 8px;
+}
+
+.botones>svg:nth-child(1) {
+  color: var(--green);
+  background: var(--light-green);
+}
+
+.botones a svg {
+  color: var(--blue);
+  background: var(--light-blue);
+}
+
+.botones>svg:nth-child(3) {
+  color: var(--red);
+  background: var(--light-red);
+}
+
+.sidebar:hover .botones svg {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  transition: color 0.2s ease;
+  padding: 5px;
+}
+
+.sidebar div:nth-child(1) p {
+  display: none;
+}
+
+.sidebar:hover div:nth-child(1) p {
+  font-size: 18px;
+  color: black;
+  font-weight: bold;
+  display: block;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  margin-right: 5px;
+}
+
+.sidebar li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  padding: 15px 0;
+  border-radius: 0 15px 15px 0;
+}
+
+.sidebar:hover li {
+  padding: 0;
+}
+
+.sidebar li:hover {
+  background-color: white;
+}
+
+.sidebar li a {
+  display: flex;
+
+  align-items: center;
+  gap: 10px;
+}
+
+.sidebar:hover li a {
+  height: 100%;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.sidebar li:hover a p,
+.sidebar li:hover a svg {
+  color: var(--dark-blue);
+}
+
+.sidebar:hover li {
+  justify-content: start;
+  padding-left: 10px;
+}
+
+.sidebar li p {
+  display: none;
+}
+
+.sidebar:hover li p {
+  display: block;
+  color: white;
+  font-size: 15px;
+}
+
+.sidebar li svg {
+  color: white;
+  height: 30px;
+  width: 30px;
+  transition: height 0.3s ease, width 0.3s ease;
+}
+
+.sidebar:hover li svg {
+  height: 20px;
+  width: 20px;
+}

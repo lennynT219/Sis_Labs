@@ -1,0 +1,6 @@
+export { Quejas } from './Quejas/Quejas'
+export { Tareas } from './Tareas/Tareas'
+export { Pasante } from './Pasante/Pasante'
+export { Perfil } from './Perfil/Perfil'
+export { VisualizarQueja } from './VisualizarQueja/VisualizarQueja'
+export { VisualizarTarea } from './VisualizarQueja/VisualizarTarea'
